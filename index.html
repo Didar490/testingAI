@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superlist Style Landing Page</title>
+    <style>
+        /* Inline CSS for troubleshooting */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background-color: #ffffff;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff5533;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .actions a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .sign-in {
+            color: #ff5533;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            background-color: #ffffff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .hero .highlight {
+            color: #ff5533;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .start-free {
+            background-color: #ff5533;
+            color: #ffffff;
+        }
+
+        .go-pro {
+            background-color: #654aff;
+            color: #ffffff;
+        }
+
+        .content {
+            padding: 50px 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Superlist</div>
+        <nav>
+            <a href="#">MacOS</a>
+            <a href="#">Web</a>
+            <a href="#">iOS</a>
+            <a href="#">Android</a>
+        </nav>
+        <div class="actions">
+            <a href="#">Updates</a>
+            <a href="#">Pricing</a>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Home to all your <span class="highlight">lists</span></h1>
+        <p>Take notes, organize your work, and get more done with AI.<br> Simple, blazingly fast, and wrapped in a beautiful UI.</p>
+        <div class="cta-buttons">
+            <a href="#" class="start-free">Start today — it's free</a>
+            <a href="#" class="go-pro">Go Pro ✨</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h3>App Launch</h3>
+            <p>Hey team, here's a quick recap of what we're working on ahead of the launch...</p>
+        </div>
+    </section>
+
+</body>
+</html>
