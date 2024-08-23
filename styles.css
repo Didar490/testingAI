@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f7;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5533;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.actions a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sign-in {
+  color: #ff5533;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 100px 20px;
+  background-color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 72px; /* Increased font size for the headline */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero .highlight {
+  color: #ff5533;
+}
+
+.hero p {
+  font-size: 24px; /* Increased font size for the subheadline */
+  margin-bottom: 40px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-buttons a {
+  padding: 15px 30px;
+  font-size: 28px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.start-free {
+  background-color: #ff5533;
+  color: #ffffff;
+}
+
+.go-pro {
+  background-color: #654aff;
+  color: #ffffff;
+}
+
+.content {
+  padding: 50px 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
